@@ -1,0 +1,108 @@
+header {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    background: #CCCCCC;
+    margin: 0 1.5%;
+    padding: 100px 100px;
+    box-sizing:   border-box;
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: static;
+    top: 90px;
+    right: 0px;
+    }
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px:0;
+    }
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    background: #CCCCCC;
+    margin: 0 1.5%;
+    padding: 100px 100px;
+    box-sizing:   border-box;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    }
+.produtos li:hover {
+        border-color: #088C19;
+    }
+.produtos li:active {
+    border-color: #088C19;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+}
+    .produtos h2{
+        font-size:30px;
+        font-weight: bold;
+    }
+    .produtos-descrição{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .produtos-especificação{
+        font-size: 22px;
+        font-weight: bold;
+            }
+            main{
+                width: 940px;
+                margin: 0 auto;
+            }
+            form{
+                margin: 40px 0;
+
+            }
+            form label {
+                display: block;
+                font-size: 20px;
+                margin: 0 0 10px;
+            }
+
+            form input{
+                display block;
+                margin: 0 0 10px;
+                padding: 10px 20px;
+                width: 50%;
+
+            }
+
+    footer {
+        text-align: center;
+        background  #CCCCCC;
+    }    
+    
